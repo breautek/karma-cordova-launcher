@@ -15,4 +15,8 @@ describe('Device', () => {
     it('platform should be android', () => {
         expect(window.device.platform).toBe('Android');
     });
+
+    it('my api', () => {
+        expect(window.myTestApiThatUsesCordova()).toBe('Android');
+    });
 });

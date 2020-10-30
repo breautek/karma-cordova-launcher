@@ -5,10 +5,16 @@ module.exports = function(config) {
         frameworks: ['cordova', 'jasmine'],
         browsers : ['cordova-android'],
         singleRun: true,
-        files : [{
-            pattern: 'spec/**/*.spec.js',
-            watched: true
-        }],
+        files : [
+            {
+                pattern: 'spec/**/*.spec.js',
+                watched: true
+            },
+            {
+                pattern: 'test.js',
+                watched: true
+            }
+        ],
         cordova: {
             port: 8000,
             plugins: [
