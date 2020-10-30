@@ -1,0 +1,28 @@
+{
+  "name": "karma-cordova-launcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breautek/karma-cordova-launcher.git"
+  },
+  "author": "norman@nbsolutions.ca",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/breautek/karma-cordova-launcher/issues"
+  },
+  "homepage": "https://github.com/breautek/karma-cordova-launcher#readme",
+  "dependencies": {
+    "execa": "^4.1.0",
+    "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.2",
+    "karma": "^5.2.3",
+    "karma-jasmine": "^4.0.1"
+  }
+}
