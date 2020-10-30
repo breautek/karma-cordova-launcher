@@ -9,5 +9,13 @@ module.exports = function(config) {
             pattern: 'spec/**/*.spec.js',
             watched: true
         }],
+        cordova: {
+            port: 8000,
+            plugins: [
+                'cordova-plugin-device'
+            ],
+            platformVersion: 'nightly',
+            debug: true
+        }
     });
 };

@@ -7,8 +7,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <!-- TODO: Template the IP below -->
-    <content src="http://192.168.50.11:9877" />
+    <content src="http://$ADDRESS:$PORT" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
